@@ -1,0 +1,7 @@
+server:
+  port: 8001
+logging:
+  file:
+    name: TimeInterface
+chilunapispace:
+  public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5u24n40MAVQFKzq38cLrbPRL5O6lHlgk6fCwPx6+AQgHkM7noHU9SjYeaNoC54nBVK4UuyXp+lz8JuUYPOVlEqMUr9Xq70AG42y8SYNPJviuLqbqg6E+0GQODXK76S8ylpwzLzvMF8nboYGsnfLnusqgM1qw0SAijPTPO5mH4A4sJUEpbs0VMpmgs5cS1Mp5/KolUv2Xv9ntClvZe8KEKZ7x1sea/ah/hHLo6F99cTH9S59GUu3VE3AwGtFBQcY6SZJjfdDpyWkva5pZLjI0tqcrwZ4U1v2XT52yVepReuHw8etUySWboiJX/9+6npLvfHz3/YreT83+PGc+NYaaCQIDAQAB
