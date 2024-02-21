@@ -24,14 +24,14 @@ public class TimeController {
         return date.format(Calendar.getInstance().getTime());
     }
 
-    @GetMapping("/**")
-    public String getCurrentTime2(@RequestParam(required = false) String zone) {
-        //格式化
-        SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        //默认情况输出默认UTC时区数据，否则输出指定时期
-        if (zone != null) {
-            date.setTimeZone(TimeZone.getTimeZone(zone));
-        }
-        return date.format(Calendar.getInstance().getTime());
-    }
+//    @GetMapping("/**")
+//    public String getCurrentTime2(@RequestParam(required = false) String zone) {
+//        //格式化
+//        SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        //默认情况输出默认UTC时区数据，否则输出指定时期
+//        if (zone != null) {
+//            date.setTimeZone(TimeZone.getTimeZone(zone));
+//        }
+//        return date.format(Calendar.getInstance().getTime());
+//    }
 }
